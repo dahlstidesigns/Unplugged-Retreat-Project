@@ -86,6 +86,162 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/* -------------------- Base Header & Footer Styles -------------------------*/
+header,
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+/* Header Styles */
+
+header {
+
+}
+
+header .content-wrapper {
+
+}
+
+header figure {
+
+}
+
+header nav {
+
+}
+
+header .header-divider {
+
+}
+
+/* -------------------- Main Mobile Styles - Homepage -------------------------*/
+
+#hero-area {
+
+}
+
+#hero-area .content-wrapper {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+#hero-area .img {
+
+}
+
+#hero-area h1 {
+
+}
+
+aside {
+  display: flex;
+  justify-content: space-between;
+  align-items: space-between;
+  flex-flow: row wrap;
+}
+
+aside .form-description {
+
+}
+
+aside .form {
+
+}
+
+#features {
+
+}
+
+article {
+
+}
+
+#review .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  flex-grow: row wrap;
+}
+
+---/* Footer */---
+
+footer {
+  flex-flow: column;
+}
+
+address {
+
+}
+
+footer .social {
+
+}
+
+footer .social-icons {
+
+}
+
+footer .copyright {
+
+}
+
+/* -------------------- Main Mobile Styles - About Page -------------------------*/
+
+#mission {
+
+}
+
+#mission .mission-content {
+
+}
+
+#map {
+
+}
+
+#map figure {
+
+}
+
+#contact-section {
+
+}
+
+#contact-section h1{
+
+}
+
+#contact-section .contact-info {
+
+}
+
+/* -------------------- Main Mobile Styles - FAQ Page -----------------------*/
+#faqs {
+
+}
+
+#faqs .faq-content {
+
+}
+
+#faqs .faq-content h1 {
+
+}
+
+#faqs .faq-content h2 {
+
+}
+
+#faqs .faq-content p {
+
+}
+/* -------------------- Tablet Styles -------------------------*/
+/* -------------------- Desktop Styles -------------------------*/
 
 /* ==========================================================================
    Helper classes
@@ -260,4 +416,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
