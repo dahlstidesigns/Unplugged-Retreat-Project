@@ -132,7 +132,7 @@ img {
 }
 
 figure {
-  padding: 10px;
+
 }
 
 address {
@@ -206,25 +206,19 @@ header .header-divider {
 
 /* -------------------- Main Mobile Styles - Homepage -------------------------*/
 
-#hero-area {
-
-}
-
-#hero-area .content-wrapper {
-  display:flex;
+.hero {
+  background-image: url('../img/bridge.jpg');
+  display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
 }
 
-#hero-area .img {
-  background: url ('img/bridge.jpg');
-  background-size: cover;
-
+.hero h1 {
+  color: #e2e3ed;
 }
 
-#hero-area h1 {
-
+.hero .content-wrapper {
 }
 
 aside {
@@ -270,31 +264,35 @@ input[type=button] {
 /*------ Features ------*/
 
 
-#features {
-  background-image: url('img/features-background.jpg');
+.features {
   background-size: cover;
+  background-image: url('../img/features-background.jpg');
 }
 
-#features article {
-
+.features article {
+  color: #e2e3ed;
 }
 
-#features p {
+.features p {
   margin:0;
   text-align: center;
-}
 
-#review .content-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: baseline;
-  flex-grow: row wrap;
 }
 
 /*------ Review ----------*/
 
-#review h3 {
+
+.reviews {
+  background: #2a423a;
+  color: #e2e3ed;
+  justify-content: center;
+  text-align: center;
+}
+
+.reviews h3 {
   width: 47%;
+  padding: 10px;
+  font-size: 1.25em;
 }
 
 ---/* Footer */---
